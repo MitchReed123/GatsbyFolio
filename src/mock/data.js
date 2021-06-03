@@ -17,41 +17,42 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'Logo.PNG',
+  paragraphOne:
+    'Full Stack Developer with 2 years of experience in software engineering and developing new features and apps for different products and companies by using programming tools like ReactJs, HTML, CSS, Node.js, and Gatsby. Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features.',
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
+  resume: 'https://drive.google.com/file/d/1BRRvN65bvNIP5AHkgfEEjlzA0pEOV377/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'InvestTracker.PNG',
+    title: 'TESTING',
+    info: 'A MVC app that lets the user track all of their investments across Crypto/Precious Metals/Stocks and see Semi-Live market data compared to it on their profile page',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://investtracker.azurewebsites.net',
+    repo: 'https://github.com/MitchReed123/InvestTrackerMVC', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'RedBadgeProj.PNG',
+    title: 'Lottery Tracking App',
+    info: 'Gives the user the ability to track all the lottery numbers that they have bought and where they have bought them at.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/MitchReed123/Red-Badge-Project-Client', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Natours.PNG',
+    title: 'Natours',
+    info: 'Tutorial Website using fully responsive SASS/SCSS',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mitchreed123.github.io/Natours/',
+    repo: 'https://github.com/MitchReed123/Natours', // if no repo, the button will not show up
   },
 ];
 
@@ -59,31 +60,31 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'reed.mitch@live.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/mitchell-reed-7923a9aa/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/MitchReed123',
     },
   ],
 };

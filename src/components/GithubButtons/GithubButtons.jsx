@@ -5,17 +5,17 @@ const GithubButton = () => (
   <>
     <GitHubButton
       className="github-button"
-      href="https://github.com/cobidev/gatsby-simplefolio/fork"
+      href="https://github.com/MitchReed123"
       data-icon="octicon-repo-forked"
       data-size="large"
       data-show-count="true"
       aria-label="Fork cobidev/gatsby-simplefolio on GitHub"
     >
-      Fork
+      Followers
     </GitHubButton>
     <GitHubButton
       className="github-button"
-      href="https://github.com/cobidev/gatsby-simplefolio"
+      href="https://github.com/MitchReed123/cra-template-jsx-sass"
       data-icon="octicon-star"
       data-size="large"
       data-show-count="true"
